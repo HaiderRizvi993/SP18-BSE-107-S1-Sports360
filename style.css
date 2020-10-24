@@ -3,11 +3,6 @@ body {
     background-color: rgba(128, 128, 128, 0) !important;
 }
 
-#longBar:hover {
-    background-color: rgb(192, 17, 17);
-    color: rgba(128, 128, 128, 0);
-}
-
 #navBar {
     position: fixed;
     z-index: 1;
@@ -28,6 +23,13 @@ body {
 #longBar {
     position: relative;
     border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0);
+    ;
+}
+
+#longBar:hover {
+    background-color: rgb(192, 17, 17);
+    color: white;
 }
 
 .container,

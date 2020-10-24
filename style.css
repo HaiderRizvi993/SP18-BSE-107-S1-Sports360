@@ -3,11 +3,6 @@ body {
     background-color: rgba(128, 128, 128, 0.247) !important;
 }
 
-#longBar {
-    position: relative;
-    border: 1px solid black;
-}
-
 #longBar:hover {
     background-color: rgb(192, 17, 17);
     color: white;
@@ -28,6 +23,11 @@ body {
 
 #logoLang {
     float: right;
+}
+
+#longBar {
+    position: relative;
+    border: 1px solid black;
 }
 
 .container,
@@ -134,7 +134,7 @@ a:link {
 }
 
 a:visited {
-    color: blue;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }

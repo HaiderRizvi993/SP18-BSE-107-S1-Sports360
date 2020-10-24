@@ -1,11 +1,11 @@
 body {
     overflow: scroll;
-    background-color: rgba(128, 128, 128, 0.247) !important;
+    background-color: rgba(128, 128, 128, 0) !important;
 }
 
 #longBar:hover {
     background-color: rgb(192, 17, 17);
-    color: white;
+    color: rgba(128, 128, 128, 0);
 }
 
 #navBar {
